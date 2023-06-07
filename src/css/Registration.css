@@ -1,0 +1,109 @@
+.register-container {
+
+    display: flex;
+    height: 78vh;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0.2; */
+    margin: 0;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 150px;
+    min-width: 30vw;
+    background: rgba(78, 63, 150, 0.5);
+    border-radius: 30px;
+    padding: 30px;
+
+}
+
+.parent {
+    /* padding: 2rem 2rem; */
+    margin: 2 rem;
+}
+
+.child1 {
+    display: inline-block;
+    padding: 1rem 1rem;
+    /* margin-left: 16px; */
+}
+
+.child2 {
+    display: inline-block;
+    padding: 1rem 1rem;
+    margin-left: 130px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    text-align: center;
+    margin: 0;
+
+}
+
+input {
+
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    padding-right: 0.9rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.datepicker {
+    width: 92%;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.bottom-link {
+    text-decoration: none;
+    color: black;
+}
+
+.flight-form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    border-radius: 30px;
+    padding: 30px;
+    margin: 20px;
+
+}
+
+.flight-details {
+    /* width: 50%;
+    margin: auto; */
+    position: relative;
+    top:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    /* padding: 20px; */
+  
+}
